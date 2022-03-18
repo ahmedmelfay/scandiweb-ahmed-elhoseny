@@ -4,13 +4,13 @@ export class NotFound extends Component {
   render() {
     const styles = {
       width: "100vw",
-      height: "100vh",
+      height: "calc(100vh - 80px)",
       fontSize: "40px",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
       position: "absolute",
-      top: "0",
+      top: "80px",
       left: "0",
     };
     return (
